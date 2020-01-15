@@ -13,6 +13,11 @@
 		F2D4717023CE6364006A7CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D4716E23CE6364006A7CA3 /* Main.storyboard */; };
 		F2D4717223CE6366006A7CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D4717123CE6366006A7CA3 /* Assets.xcassets */; };
 		F2D4717523CE6366006A7CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D4717323CE6366006A7CA3 /* LaunchScreen.storyboard */; };
+		F2D4717F23CE657F006A7CA3 /* locationButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D4717C23CE657F006A7CA3 /* locationButton@2x.png */; };
+		F2D4718023CE657F006A7CA3 /* locationButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D4717D23CE657F006A7CA3 /* locationButton@3x.png */; };
+		F2D4718123CE657F006A7CA3 /* locationButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D4717E23CE657F006A7CA3 /* locationButton.png */; };
+		F2D4718423CE9462006A7CA3 /* zoomIN.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D4718223CE9462006A7CA3 /* zoomIN.png */; };
+		F2D4718523CE9462006A7CA3 /* zoomOUT.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D4718323CE9462006A7CA3 /* zoomOUT.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F2D4717123CE6366006A7CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2D4717423CE6366006A7CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2D4717623CE6366006A7CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D4717C23CE657F006A7CA3 /* locationButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "locationButton@2x.png"; sourceTree = "<group>"; };
+		F2D4717D23CE657F006A7CA3 /* locationButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "locationButton@3x.png"; sourceTree = "<group>"; };
+		F2D4717E23CE657F006A7CA3 /* locationButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locationButton.png; sourceTree = "<group>"; };
+		F2D4718223CE9462006A7CA3 /* zoomIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoomIN.png; sourceTree = "<group>"; };
+		F2D4718323CE9462006A7CA3 /* zoomOUT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoomOUT.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 		F2D4716723CE6364006A7CA3 /* Parth_C0766346_LA1 */ = {
 			isa = PBXGroup;
 			children = (
+				F2D4718223CE9462006A7CA3 /* zoomIN.png */,
+				F2D4718323CE9462006A7CA3 /* zoomOUT.png */,
+				F2D4717E23CE657F006A7CA3 /* locationButton.png */,
+				F2D4717C23CE657F006A7CA3 /* locationButton@2x.png */,
+				F2D4717D23CE657F006A7CA3 /* locationButton@3x.png */,
 				F2D4716823CE6364006A7CA3 /* AppDelegate.swift */,
 				F2D4716A23CE6364006A7CA3 /* SceneDelegate.swift */,
 				F2D4716C23CE6364006A7CA3 /* ViewController.swift */,
@@ -125,9 +140,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D4718423CE9462006A7CA3 /* zoomIN.png in Resources */,
 				F2D4717523CE6366006A7CA3 /* LaunchScreen.storyboard in Resources */,
+				F2D4718023CE657F006A7CA3 /* locationButton@3x.png in Resources */,
+				F2D4718523CE9462006A7CA3 /* zoomOUT.png in Resources */,
 				F2D4717223CE6366006A7CA3 /* Assets.xcassets in Resources */,
 				F2D4717023CE6364006A7CA3 /* Main.storyboard in Resources */,
+				F2D4718123CE657F006A7CA3 /* locationButton.png in Resources */,
+				F2D4717F23CE657F006A7CA3 /* locationButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
