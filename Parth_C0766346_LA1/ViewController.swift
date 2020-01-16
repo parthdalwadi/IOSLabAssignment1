@@ -159,7 +159,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         let route = dir_responce.routes[0] // fastest route
         self.mymapview.addOverlay(route.polyline, level: .aboveRoads)
         
-        
+        let rect = route.polyline.boundingMapRect
+        self.mymapview.setRegion(MKCoordinateRegion(rect), animated: true)
         
         }
     
